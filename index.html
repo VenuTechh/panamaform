@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <style>
+        body{
+            background-color: #f4f5f7;
+            color: rgb(55, 61, 63);
+            font-family: Roboto, sans-serif;
+            margin: 0 30px;
+        }
+        .top-logo {
+            text-align: center;
+        }
+        .top-heading-part h3 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .top-heading-part {
+            text-align: center;
+        }
+        .top-heading-part p {
+            margin: 12px 0;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .page-content-main {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 33px;
+            margin-top: 30px;
+        }
+        .page-content-main ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .page-content-main ul li::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #4385f5;
+            display: inline-block;
+            margin-right: 15px;
+            border-radius: 100%;
+            position: absolute;
+            left: 0;
+            top: 4px;
+        }
+        .page-content-main ul li {
+            text-align: left;
+            margin: 17px 0px 0px;
+            line-height: 20px;
+            list-style: none;
+            padding-left: 20px;
+            position: relative;
+            font-size: 18px
+        }
+        .pri-box {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        .pri-one {
+            width: 100%;
+            background-color: #F4F5F7;
+            padding: 32px;
+            border-radius: 50px;
+            margin: 30px 0 35px;
+        }
+        .pri-se h4 {
+            margin: 0;
+            font-size: 33px;
+            color: #4385f5;
+            font-weight: bold;
+        }
+        .pri-h {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .pri-h span {
+            margin-top: 0;
+            color: #4385f5;
+            font-style: italic;
+        }
+        .pri-content {
+            margin-top: 5px;
+        }
+        .pri-one .pri-free {
+            color: #ff0000;
+            display: block;
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .pri-se .su-c {
+            color: #ff0000;
+            margin: 3px 0;
+            display: block;
+            font-style: italic;
+        }
+        .info {
+            color: #4385f5;
+        }
+        form{
+            text-align: center;
+        }
+        .pri-btn {
+            padding: 23px;
+            font-size: 29px;
+            border-radius: 129px;
+            width: 100%;
+            font-weight: 600;
+            background-color: #4385f5;
+            color: #fff;
+            border: 1px transparent solid;
+            transition: .4s all ease-in-out;
+        }
+        .pri-btn:hover{
+            background-color: transparent;
+            border-color: #4385f5;
+            color: #4385f5;
+        }
+        .more-info p {
+            font-size: 13px;
+    		line-height: 18px;
+    		margin-top: 35px;
+        }
+        .page-f-part ul {
+            margin: 40px 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .page-f-part ul li::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #4385f5;
+            display: inline-block;
+            margin-right: 15px;
+            border-radius: 100%;
+        }
+        .page-f-part ul li {
+            margin: 0 15px 10px 0;
+        }
+        .page-f-part ul li a {
+            color: #000;
+            text-decoration: none;
+        }
+        .page-f-part ul li:first-child::before {
+            display: none;
+        }
+        .pri-one.selc {
+            border: 1px #4385f5 solid;
+        }
+        #slider .owl-stage {
+            display: flex;
+        }
+        #slider .item {
+            display: flex;
+            height: 100%;
+        }
+        .top-h-part a {
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            color: rgb(55, 61, 63);
+            position: relative;
+            border-radius: 50%;
+            background: white;
+            position: absolute;
+            left: 30px;
+            top: 30px;
+        }
+
+        .top-h-part a img {
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="top-h-part">
+        <a href="https://www.immigrationforms.app/immicase/index.php" class="headerButton goBack">
+            <img src="https://www.immigrationforms.app/immicase/assets/img/arrow-left.png">
+        </a>
+        <div class="top-logo">
+            <img src="logo.svg" alt="" height="100px">
+        </div>
+    </div>
+    <div class="top-heading-part">
+        <h3>MyCaseStatus.app</h3>
+        <p>The Only USCIS Case Tracking Done Differently!</p>
+    </div>
+    <div class="page-content-main">
+        <ul>
+            <li>Receive real-time updates on the progress of your case.</li>
+            <li>View personalized Case Analysis based on real USCIS data.</li>
+            <li>Access to daily USCIS case processing data.</li>
+            <li>Quickly check Case Processing Times.</li>
+            <li>Unlimited access to ask immigration questions to Sam, MyCaseStatus' AI Assistant.</li>
+            <li>Access to the USCIS Case Status Dictionary.</li>
+            <li>Explore important USCIS resources.</li>
+            <li>Access to discounted immigration legal services.</li>
+            <li>Available in English and Spanish.</li>
+            <li>Cancel your subscription at anytime.</li>
+        </ul>
+        <div class="s-pakage">
+            <form action="">
+                <div class="owl-carousel owl-theme" id="slider">
+                    <div class="item">
+                        <div class="pri-one selc">
+                            <div class="pri-se">
+                                <span class="pri-free">3 day free trial</span>
+                                <span class="su-c">then</span>
+                                <div class="pri-h">
+                                    <h4>$12.99</h4>
+                                    <span>(month)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pri-one">
+                            <div class="pri-se">
+                                <span class="pri-free">3 day free trial</span>
+                                <span class="su-c">then</span>
+                                <div class="pri-h">
+                                    <h4>$12.99</h4>	
+                                </div>
+                            </div>
+                            <div class="pri-content">
+                                <i class="info">($9.99/month for 3 months)</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="pri-btn">Start My Free Trial</button>
+            </form>
+        </div>
+        <div class="more-info">
+            <p>You can manage and cancel your subscription by accessing your account settings on the App Store. Deleting the app does not automatically cancel the subscription, and no refunds or credits are provided for partial months.</p>
+        </div>
+    </div>
+
+    <div class="page-f-part">
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+
+    <script>
+
+$('#slider').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
+    </script>
+
+</body>
+</html>
